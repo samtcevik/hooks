@@ -26,9 +26,12 @@ export default function UseReducerComponent() {
     <div>
       <p>Count: {count}</p>
       <button onClick={() => dispatch({ type: 'increment', payload: 1 })}>Increment by 1</button>
-      <button onClick={() => dispatch({ type: 'decrement', payload: 1 })}>Decrement by 1</button>
+      <button onClick={() => dispatch({ type: 'increment', payload: 2 })}>Increment by 2</button>
+      <button onClick={() => dispatch({ type: 'increment', payload: 3 })}>Increment by 3</button>
+      <button onClick={() => dispatch({ type: 'increment', payload: 4 })}>Increment by 4</button>
       <button onClick={() => dispatch({ type: 'increment', payload: 5 })}>Increment by 5</button>
-      <button onClick={() => dispatch({ type: 'decrement', payload: 5 })}>Decrement by 5</button>
+      <button onClick={() => dispatch({ type: 'increment', payload: 6 })}>Increment by 6</button>
+      <button onClick={() => dispatch({ type: 'increment', payload: 7 })}>Increment by 7</button>
     </div>
   )
 }
