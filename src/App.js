@@ -1,6 +1,7 @@
 import { useState } from "react";
 import UseMemoComponent from "./components/UseMemoComponent";
 import UseCallbackComponent from "./components/useCallbackComponent";
+import UseReducerComponent from "./components/UseReducerComponent";
 
 function App() {
   const[isD, setIsD] = useState(true);
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <UseMemoComponent />
       <UseCallbackComponent/>
+      <UseReducerComponent/>
     </div>
   );
 }
